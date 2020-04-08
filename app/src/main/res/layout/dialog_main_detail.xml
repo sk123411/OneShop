@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_gravity="center_horizontal"
+
+    android:layout_width="300dp" android:layout_height="wrap_content">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:text="Quantity"
+        android:id="@+id/qu"
+        android:gravity="center_horizontal"
+        android:layout_height="wrap_content" />
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:text="Price"
+        android:id="@+id/pi"
+        android:gravity="end"
+        android:layout_marginEnd="40dp"
+        android:layout_height="wrap_content" />
+
+    <androidx.recyclerview.widget.RecyclerView
+
+        android:layout_width="match_parent"
+        android:id="@+id/order_detail_recyler"
+        android:layout_below="@+id/qu"
+        android:layout_height="wrap_content">
+
+    </androidx.recyclerview.widget.RecyclerView>
+
+
+</RelativeLayout>

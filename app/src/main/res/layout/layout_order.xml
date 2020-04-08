@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="8dp"
+    app:cardElevation="4dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:padding="5dp"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:orientation="vertical"
+            android:id="@+id/lin"
+            android:padding="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:id="@+id/order_id"
+                android:layout_marginLeft="10dp"
+                android:textAllCaps="true"
+                android:textStyle="bold"
+                android:text="#111111"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:id="@+id/order_status"
+                android:layout_marginLeft="10dp"
+                android:textAllCaps="true"
+                android:textColor="@android:color/holo_blue_bright"
+                android:textStyle="italic"
+                android:text="Status"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:id="@+id/order_username"
+                android:layout_marginLeft="10dp"
+                android:textStyle="italic"
+                android:text="ankit45"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:id="@+id/order_address"
+                android:layout_marginLeft="10dp"
+                android:textAllCaps="true"
+                android:textStyle="italic"
+                android:text="ADDRESS"
+                android:layout_height="wrap_content" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Amount"
+                android:layout_gravity="bottom|end"
+                android:textSize="14sp"
+                android:id="@+id/orderAmount"
+                android:textColor="@color/colorPrimary"
+                android:layout_marginEnd="8dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Courier Name:"
+                android:layout_gravity="bottom|end"
+                android:textSize="14sp"
+                android:paddingTop="2dp"
+                android:id="@+id/orderCourier"
+                android:textColor="@color/fbutton_color_peter_river"
+                android:layout_marginEnd="8dp"
+                />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tracking Number:"
+                android:layout_gravity="bottom|end"
+                android:textSize="14sp"
+                android:paddingTop="2dp"
+                android:id="@+id/orderTracking"
+                android:textColor="@color/fbutton_color_peter_river"
+                android:layout_marginEnd="8dp"
+                />
+
+
+        </LinearLayout>
+        <Button
+            android:id="@+id/cancelOrder"
+
+            android:layout_width="wrap_content"
+            android:padding="8dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/lin"
+            android:background="@color/colorPrimary"
+            android:text="Cancel Order"
+            android:textSize="14sp"
+            android:textColor="@android:color/white" />
+
+
+
+    </RelativeLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"
+        android:orientation="horizontal"
+        android:layout_gravity="center_vertical"
+        android:layout_height="wrap_content">
+
+
+
+    </LinearLayout>
+
+
+</androidx.cardview.widget.CardView>

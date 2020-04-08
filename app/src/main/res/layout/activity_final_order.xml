@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="12dp"
+    android:orientation="vertical"
+    tools:context="com.skewapps.app.oneshop.PaymentHandler.FinalOrder">
+
+
+    <TextView
+        android:id="@+id/text_item_price"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/holo_orange_light"
+        android:textSize="24dp"
+        android:textStyle="bold"
+        android:gravity="center_horizontal"
+        android:text="1">
+
+    </TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pay with UPI"
+        android:textColor="@android:color/holo_green_light">
+
+    </TextView>
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/easyPayButton"
+        android:text="Proceed"
+        android:layout_gravity="center_vertical"
+       />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Test Place Order"
+            android:textColor="@android:color/holo_green_light"
+            >
+
+        </TextView>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/testOrder"
+        android:text="Test Order"
+        android:layout_gravity="center_vertical"
+        >
+
+    </Button>
+
+</LinearLayout>
